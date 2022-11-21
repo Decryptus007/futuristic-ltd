@@ -1,0 +1,68 @@
+:root {
+  --theme-blue: #0369c9;
+  --theme-red: #c80a03;
+}
+
+img {
+  object-fit: cover;
+}
+
+img#logo {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+nav a.nav-link {
+  color: var(--theme-blue);
+}
+
+nav a.nav-link.active {
+  color: var(--theme-red) !important;
+}
+
+.hero #carouselExampleFade .carousel-inner {
+  max-height: 600px;
+}
+
+.build {
+  background-color: var(--theme-red);
+  height: 200px;
+}
+
+.read-more {
+  color: var(--theme-red);
+}
+
+#feature {
+  background-color: var(--theme-blue);
+}
+
+.features-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.features-image {
+  width: 200px;
+  height: 200px;
+}
+
+.hover-features {
+  transform: scale(0, 0);
+  transition: .5s;
+}
+
+.features-image:hover .hover-features {
+  transform: scale(1, 1);
+  display: block;
+}
+
+#service-ad {
+  height: 250px;
+  background: gray url('../assets/service-bg.jpg');
+}
+
+footer {
+  background-color: #c80a03;
+}
