@@ -3,6 +3,10 @@
   --theme-red: #c80a03;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   object-fit: cover;
 }
@@ -65,4 +69,10 @@ nav a.nav-link.active {
 
 footer {
   background-color: #c80a03;
+}
+
+@media (max-width: 425px) {
+  #map iframe {
+    height: 300px;
+  }
 }
