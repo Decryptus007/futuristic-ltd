@@ -31,6 +31,10 @@ nav a.nav-link.active {
   height: 600px;
 }
 
+.carousel-item {
+  height: 100%;
+}
+
 .build {
   background-color: var(--theme-red);
   height: 200px;
@@ -69,8 +73,33 @@ nav a.nav-link.active {
   background: gray url('../assets/service-bg.jpg');
 }
 
+.service-text {
+  height: auto;
+}
+
+.service-text p,
+.service-text img {
+  height: auto;
+}
+
+.service-text img {
+  height: 300px;
+}
+
 footer {
   background-color: #c80a03;
+}
+
+@media (min-width: 992px) {
+  .service-text {
+    overflow: hidden;
+    height: 750px;
+  }
+
+  .service-text p,
+  .service-text img {
+    height: 375px;
+  }
 }
 
 @media (max-width: 425px) {
